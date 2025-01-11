@@ -6,7 +6,7 @@
 - **yarn**
 - **npm**
 
-## Clone project and run test.
+## Clone project and run test
 
 ```
 $ git clone https://github.com/nvdao03/Portfolio.git
