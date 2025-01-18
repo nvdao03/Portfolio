@@ -3,8 +3,9 @@ import { HomeOutlined, UserOutlined } from '@ant-design/icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 
-import './Sidebar.scss'
 import Logo from '../../assets/images/logo.svg'
+import { GraducationIcon } from '../Icons'
+import './Sidebar.scss'
 
 function Sidebar() {
   return (
@@ -17,19 +18,13 @@ function Sidebar() {
         <div className='navMenu'>
           <ul className='navList'>
             <li className='navItem'>
-              <a href='#home' className='navLink'>
-                <HomeOutlined />
-              </a>
+              <a href='#home' className='navLink'></a>
             </li>
             <li className='navItem'>
-              <a href='#home' className='navLink'>
-                <UserOutlined />
-              </a>
+              <a href='' className='navLink'></a>
             </li>
             <li className='navItem'>
-              <a href='#home' className='navLink'>
-                {/* <FontAwesomeIcon icon={faGraduationCap} /> */}t
-              </a>
+              <a href='' className='navLink'></a>
             </li>
           </ul>
         </div>

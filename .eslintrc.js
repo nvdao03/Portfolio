@@ -51,6 +51,7 @@ module.exports = {
         jsxSingleQuote: true
       }
     ],
-    'no-unused-vars': 'off'
+    'no-unused-vars': 'off',
+    'react/prop-types': 'off' // Tắt kiểm tra prop-types
   }
 }
