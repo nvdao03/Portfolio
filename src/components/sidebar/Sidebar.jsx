@@ -1,15 +1,20 @@
 import React from 'react'
-import { HomeOutlined, UserOutlined } from '@ant-design/icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 
 import Logo from '../../assets/images/logo.svg'
-import { GraducationIcon } from '../Icons'
+import {
+  BrieftCaseIcon,
+  BubbleIcon,
+  GraducationIcon,
+  HomeIcon,
+  LayerGroupIcon,
+  NoteIcon,
+  UserFollowingIcon
+} from '../Icons'
 import './Sidebar.scss'
 
 function Sidebar() {
   return (
-    <aside className='aside'>
+    <div className='aside'>
       <a href='#home' className='navbarLogo'>
         <img src={Logo} alt='Logo' />
       </a>
@@ -18,18 +23,54 @@ function Sidebar() {
         <div className='navMenu'>
           <ul className='navList'>
             <li className='navItem'>
-              <a href='#home' className='navLink'></a>
+              <a href='#home' className='navLink'>
+                <HomeIcon className='iconSidebar' />
+              </a>
             </li>
+
             <li className='navItem'>
-              <a href='' className='navLink'></a>
+              <a href='#about' className='navLink'>
+                <UserFollowingIcon className='iconSidebar' />
+              </a>
             </li>
+
             <li className='navItem'>
-              <a href='' className='navLink'></a>
+              <a href='#service' className='navLink'>
+                <BrieftCaseIcon className='iconSidebar' />
+              </a>
+            </li>
+
+            <li className='navItem'>
+              <a href='#resume' className='navLink'>
+                <GraducationIcon className='iconSidebar' />
+              </a>
+            </li>
+
+            <li className='navItem'>
+              <a href='#portfolio' className='navLink'>
+                <LayerGroupIcon className='iconSidebar' />
+              </a>
+            </li>
+
+            <li className='navItem'>
+              <a href='#blog' className='navLink'>
+                <NoteIcon className='iconSidebar' />
+              </a>
+            </li>
+
+            <li className='navItem'>
+              <a href='#contact' className='navLink'>
+                <BubbleIcon className='iconSidebar' />
+              </a>
             </li>
           </ul>
         </div>
       </nav>
-    </aside>
+
+      <div className='navFooter'>
+        <span className='navCopyright'>&copy; 2024 - 2025.</span>
+      </div>
+    </div>
   )
 }
 

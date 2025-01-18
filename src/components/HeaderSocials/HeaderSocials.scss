@@ -1,0 +1,22 @@
+.iconHeaderSocials {
+  display: inline;
+  width: 3.2rem;
+  height: 2.6rem;
+  font-size: 1.3rem;
+}
+
+.homeSocials {
+  display: flex;
+  column-gap: 1.75rem;
+  margin: 2.5rem 0;
+}
+
+.homeSocialsLink {
+  font-size: 1.3rem;
+  color: var(--title-color);
+  transition: 0.3s;
+
+  &:hover {
+    color: hsl(43, 100%, 68%);
+  }
+}

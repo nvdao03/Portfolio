@@ -1,0 +1,22 @@
+.home {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  max-width: 54rem;
+  text-align: center;
+}
+
+.homeImg {
+  margin-bottom: 1.5rem;
+}
+
+.homeName {
+  font-size: 3rem;
+  font-weight: var(--font-bold);
+  margin-bottom: 0.5rem;
+}
