@@ -126,37 +126,6 @@ table {
   border-spacing: 0;
 }
 
-/* ============ Variable Css ============ */
-:root {
-  /* ============ Colors mode HSL ============ */
-  --frist-color: hsl(353, 100%, 65%);
-  --title-color: hsl(244, 24%, 26%);
-  --text-color: hsl(244, 16%, 43%);
-  --frist-color: hsl(353, 100%, 65%);
-  --body-color: hsl(258, 60%, 98%);
-  --container-color: #fff;
-
-  /* ============ Font and Typology ============ */
-  --body-font: 'Rubik', serif;
-  --h1-font-size: 3rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
-  --normal-font-size: 1.9rem;
-  --small-font-size: 1.6rem;
-  --smaller-font-size: 1.3rem;
-
-  /* ============ Font Weight ============ */
-  --font-medium: 500;
-  --font-semibold: 600;
-  --font-bold: 700;
-
-  /* ============ Box Shadown ============ */
-  --shadown: 0rem 0.5rem 2rem 0rem rgb(69 97 96 / 10%);
-
-  /* ============ Border Radius ============ */
-  --border-radius: 2rem;
-}
-
 body,
 button,
 input,
@@ -194,11 +163,52 @@ img {
   vertical-align: middle;
 }
 
+/* ============ Responsive Typography ============ */
+:root {
+  --h1-font-size: 1.75rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+}
+
+/* ============ Variable Css ============ */
+:root {
+  /* ============ Colors mode HSL ============ */
+  --frist-color: hsl(353, 100%, 65%);
+  --title-color: hsl(244, 24%, 26%);
+  --text-color: hsl(244, 16%, 43%);
+  --frist-color: hsl(353, 100%, 65%);
+  --body-color: hsl(258, 60%, 98%);
+  --container-color: #fff;
+
+  /* ============ Font and Typology ============ */
+  --body-font: 'Rubik', serif;
+  --h1-font-size: 3rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1.9rem;
+  --small-font-size: 1.6rem;
+  --smaller-font-size: 1.3rem;
+
+  /* ============ Font Weight ============ */
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* ============ Box Shadown ============ */
+  --shadown: 0rem 0.5rem 2rem 0rem rgb(69 97 96 / 10%);
+
+  /* ============ Border Radius ============ */
+  --border-radius: 2rem;
+}
+
 /* ============ Resuable CSS Classes ============ */
 .container {
   max-width: 100%;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 13rem;
+  padding-right: 13rem;
   margin: 0 auto;
 }
 
@@ -211,7 +221,7 @@ img {
   padding-bottom: 2rem;
 }
 
-.section__title {
+.sectionTitle {
   font-size: var(--h1-font-size);
   margin: 0.875rem;
   font-weight: var(--font-bold);
@@ -219,7 +229,7 @@ img {
   margin-bottom: 3.75rem;
 }
 
-.section__title::before {
+.sectionTitle::before {
   content: '';
   background: url('./assets/images/dots-bg.svg');
   height: 2.25rem;
@@ -242,27 +252,8 @@ img {
   color: var(--body-color);
 }
 
-@keyframes button-push {
-  50% {
-    transform: scale(0.8);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
 .btn:hover {
   animation: button-push 0.3s linear 1;
-}
-
-/* ============ Responsive Typography ============ */
-:root {
-  --h1-font-size: 1.75rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: 0.938rem;
-  --small-font-size: 0.813rem;
-  --smaller-font-size: 0.75rem;
 }
 
 * {
@@ -280,6 +271,15 @@ body {
   color: var(--text-color);
   background-color: var(--body-color);
   font-size: 1.6rem;
+}
+
+@keyframes button-push {
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .icon {
