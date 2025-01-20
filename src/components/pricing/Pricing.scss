@@ -1,0 +1,65 @@
+.pricingContainer {
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.pricingItem {
+  padding: 2rem 3rem;
+  background-color: var(--container-color);
+  text-align: center;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadown);
+}
+
+.pricingPlan {
+  margin: 2rem 0;
+  font-size: var(--h2-font-size);
+}
+
+.pricingTitle,
+.pricingSupport {
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-bold);
+
+  em {
+    font-style: normal;
+    font-size: var(--small-font-size);
+    margin-left: 1rem;
+    vertical-align: super;
+  }
+
+  span {
+    font-size: var(--normal-font-size);
+    font-weight: 400;
+    margin-left: 1rem;
+  }
+}
+
+.pricingItem .btn {
+  margin-top: 2rem;
+}
+
+.pricingItem.best {
+  padding: 5rem 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.badge {
+  position: absolute;
+  left: 0;
+  top: 3.1rem;
+  color: #fff;
+  background-color: #6c6ce5;
+  transform: rotate(-90deg);
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
