@@ -1,0 +1,47 @@
+.resumeContainer {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+}
+
+.timeLine {
+  background-color: var(--container-color);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  position: relative;
+  box-shadow: var(--shadown);
+}
+
+.timeLineItem {
+  position: relative;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &::before {
+    content: '';
+    width: 0.1rem;
+    height: 100%;
+    position: absolute;
+    left: 0.25rem;
+    top: 0;
+    background-color: var(--frist-color);
+  }
+}
+
+.timeLineIcon {
+  position: absolute;
+  left: -1.2rem;
+  background-color: var(--container-color);
+}
+
+.timeLineDate {
+  color: #8b88b1;
+  font-size: 1.4rem;
+}
+
+.timeLineTitle {
+  margin: 0.5rem 0;
+}
