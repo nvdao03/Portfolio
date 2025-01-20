@@ -23,7 +23,7 @@ function Sidebar() {
         <div className='navMenu'>
           <ul className='navList'>
             <li className='navItem'>
-              <a href='#home' className='navLink'>
+              <a href='/' className='navLink'>
                 <HomeIcon className='iconSidebar' />
               </a>
             </li>
@@ -35,7 +35,7 @@ function Sidebar() {
             </li>
 
             <li className='navItem'>
-              <a href='#service' className='navLink'>
+              <a href='#services' className='navLink'>
                 <BrieftCaseIcon className='iconSidebar' />
               </a>
             </li>
