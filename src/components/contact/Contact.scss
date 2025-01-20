@@ -1,0 +1,52 @@
+.contact.section {
+  padding-bottom: 6.25rem;
+}
+
+.contactContainer {
+  grid-template-columns: 4fr 8fr;
+  column-gap: 2rem;
+}
+
+.contactTitle {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.contactFormGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}
+
+.contactFormDiv {
+  position: relative;
+  margin-bottom: 3rem;
+  height: 3.75rem;
+
+  textarea {
+    resize: none;
+    height: 15rem;
+  }
+}
+
+.contactFormInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  box-shadow: var(--shadown);
+  background-color: var(--container-color);
+  color: var(--text-color);
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+  z-index: 1;
+  padding: 2.5rem 2rem;
+}
+
+.contactBtn {
+  margin-top: 11rem;
+  font-size: 1.5rem;
+}

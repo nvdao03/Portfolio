@@ -92,7 +92,7 @@ function Portfolio() {
   }
 
   return (
-    <section className='work container section' id='work'>
+    <section className='work container section' id='portfolio'>
       <h2 className='sectionTitle'>Recent Work</h2>
 
       <div className='workFilter'>
