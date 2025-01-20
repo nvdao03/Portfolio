@@ -1,0 +1,45 @@
+.servicesContainer {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.8rem;
+}
+
+.servicesCard {
+  text-align: center;
+  padding: 1.8rem;
+  border-radius: var(--border-radius);
+  background-color: var(--container-color);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-1rem);
+  }
+
+  &:nth-child(1) {
+    background-color: rgb(30, 144, 255);
+    box-shadow: 0rem 0.5rem 2rem 0rem rgb(30, 144, 255);
+  }
+
+  &:nth-child(2) {
+    background-color: rgb(255, 205, 0);
+    box-shadow: 0rem 0.5rem 2rem 0rem rgb(249, 215, 38);
+  }
+
+  &:nth-child(3) {
+    background-color: rgb(249, 123, 139);
+    box-shadow: 0rem 0.5rem 2rem 0rem rgb(249, 123, 70);
+  }
+}
+
+.servicesImg {
+  margin-bottom: 2.5rem;
+}
+
+.servicesTitle {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.serviesDesc {
+  color: #f8f9fa;
+}
