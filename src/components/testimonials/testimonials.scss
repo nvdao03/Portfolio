@@ -44,3 +44,15 @@
     transform: translateX(-7.5rem);
   }
 }
+
+@media (max-width: 767.98px) {
+  .testimonialsContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .testimonialComment::before {
+    left: 72%;
+  }
+}

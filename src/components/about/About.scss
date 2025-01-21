@@ -101,3 +101,63 @@
 .aboutTitle {
   font-size: 1.8rem;
 }
+
+@media (max-width: 767.98px) {
+  .aboutContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .aboutImg {
+    margin: 0 auto;
+  }
+
+  .aboutData {
+    margin-top: 3rem;
+  }
+
+  .aboutDesc {
+    font-size: 1.4rem;
+  }
+
+  .skillsName {
+    font-size: 1.5rem;
+  }
+
+  .skillsNumber {
+    font-size: 1.4rem;
+  }
+
+  .aboutBoxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 13rem;
+    row-gap: 3rem;
+  }
+
+  .aboutSubTitle {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .aboutBoxes {
+    grid-template-columns: 1fr;
+  }
+
+  .aboutBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .aboutIcon {
+    margin-bottom: 1rem;
+  }
+
+  .aboutImg {
+    width: 13rem;
+  }
+}

@@ -50,3 +50,17 @@
   margin-top: 11rem;
   font-size: 1.5rem;
 }
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+  .contactContainer {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .contactFormGroup {
+    grid-template-columns: 1fr;
+  }
+}

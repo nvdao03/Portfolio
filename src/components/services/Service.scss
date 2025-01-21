@@ -43,3 +43,17 @@
 .serviesDesc {
   color: #f8f9fa;
 }
+
+@media (max-width: 767.98px) {
+  .servicesContainer {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .servicesContainer {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}

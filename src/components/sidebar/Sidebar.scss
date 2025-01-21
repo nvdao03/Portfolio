@@ -52,3 +52,41 @@
   transform: rotate(-180deg);
   writing-mode: vertical-rl;
 }
+
+.navToggle {
+  position: fixed;
+  top: 3rem;
+  left: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 4.5rem;
+  height: 4rem;
+  background-color: var(--body-color);
+  border: 0.1rem solid #e8dfec;
+
+  cursor: pointer;
+}
+
+.navToggleIcon {
+  width: 2.2rem;
+}
+
+@media (max-width: 1199.98px) {
+  .aside {
+    margin-left: -11rem;
+  }
+
+  .aside.activeAside {
+    margin-left: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .activeNavToggle {
+    left: 13rem;
+    top: 2rem;
+    transition: all 0.3s ease-in-out;
+  }
+}
