@@ -1,0 +1,128 @@
+{
+  "services": [
+    [
+      {
+        "id": 1,
+        "image": "images/services/service-1.svg",
+        "title": "UI/UX design",
+        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget."
+      },
+      {
+        "id": 2,
+        "image": "images/services/service-2.svg",
+        "title": "Web Development",
+        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget."
+      },
+      {
+        "id": 3,
+        "image": "images/services/service-3.svg",
+        "title": "Photography",
+        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget."
+      }
+    ]
+  ],
+  "works": [
+    {
+      "id": 1,
+      "image": "images/works/work-1.svg",
+      "title": "Project Management Illustration",
+      "category": "Design"
+    },
+    {
+      "id": 2,
+      "image": "images/works/work-2.svg",
+      "title": "Guest App Walkthrough Screens",
+      "category": "Art"
+    },
+    {
+      "id": 3,
+      "image": "images/works/work-3.svg",
+      "title": "Delivery App Wireframe",
+      "category": "Branding"
+    },
+    {
+      "id": 4,
+      "image": "images/works/work-4.svg",
+      "title": "Onboarding Motivation",
+      "category": "Design"
+    },
+    {
+      "id": 5,
+      "image": "images/works/work-5.svg",
+      "title": "iMac Mockup Design",
+      "category": "Creative"
+    },
+    {
+      "id": 6,
+      "image": "images/works/work-6.svg",
+      "title": "Game Store App Concept",
+      "category": "Art"
+    }
+  ],
+  "works_title": [
+    {
+      "id": 0,
+      "title": "Everything"
+    },
+    {
+      "id": 1,
+      "title": "Creative"
+    },
+    {
+      "id": 2,
+      "title": "Art"
+    },
+    {
+      "id": 3,
+      "title": "Design"
+    },
+    {
+      "id": 4,
+      "title": "Branding"
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "category": "education",
+      "year": "2021 - present",
+      "title": "Academic Degree",
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+    },
+    {
+      "id": 2,
+      "category": "education",
+      "year": "2021 - present",
+      "title": "Bachelor's Degree",
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+    },
+    {
+      "id": 3,
+      "category": "education",
+      "year": "2021 - present",
+      "title": "Honours Degree",
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+    },
+    {
+      "id": 4,
+      "category": "experience",
+      "year": "2021 - present",
+      "title": "Web Designer",
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+    },
+    {
+      "id": 5,
+      "category": "experience",
+      "year": "2021 - present",
+      "title": "Front-End Developer",
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+    },
+    {
+      "id": 6,
+      "category": "experience",
+      "year": "2009 - present",
+      "title": "Back-End Developer",
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+    }
+  ]
+}
