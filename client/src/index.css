@@ -219,6 +219,34 @@ h3 {
   @apply text-[25px] m-[10px] font-bold relative mb-[37px] ml-0 before:h-[23px] before:w-[23px] before:absolute before:-left-[9px] before:-top-[9px];
 }
 
+.custom-service-card {
+  text-align: center;
+  padding: 18px;
+  border-radius: 20px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+
+  &:nth-child(1) {
+    background-color: rgb(30, 144, 255);
+    box-shadow: 0rem 0.5rem 2rem 0rem rgb(30, 144, 255);
+  }
+
+  &:nth-child(2) {
+    background-color: rgb(255, 205, 0);
+    box-shadow: 0rem 0.5rem 2rem 0rem rgb(249, 215, 38);
+  }
+
+  &:nth-child(3) {
+    background-color: rgb(249, 123, 139);
+    box-shadow: 0rem 0.5rem 2rem 0rem rgb(249, 123, 70);
+  }
+}
+
 /* .sectionTitle::before {
   background: url('./assets/images/dots-bg.svg');
 } */

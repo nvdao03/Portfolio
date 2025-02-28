@@ -1,60 +1,58 @@
 {
   "services": [
-    [
-      {
-        "id": 1,
-        "image": "images/services/service-1.svg",
-        "title": "UI/UX design",
-        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget."
-      },
-      {
-        "id": 2,
-        "image": "images/services/service-2.svg",
-        "title": "Web Development",
-        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget."
-      },
-      {
-        "id": 3,
-        "image": "images/services/service-3.svg",
-        "title": "Photography",
-        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget."
-      }
-    ]
+    {
+      "id": 1,
+      "image": "/images/services/service-1.svg",
+      "title": "UI/UX design",
+      "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget."
+    },
+    {
+      "id": 2,
+      "image": "/images/services/service-2.svg",
+      "title": "Web Development",
+      "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget."
+    },
+    {
+      "id": 3,
+      "image": "/images/services/service-3.svg",
+      "title": "Photography",
+      "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget."
+    }
   ],
   "works": [
     {
       "id": 1,
-      "image": "images/works/work-1.svg",
+      "image": "/images/works/work-1.svg",
       "title": "Project Management Illustration",
       "category": "Design"
     },
     {
       "id": 2,
-      "image": "images/works/work-2.svg",
+      "image": "/images/works/work-2.svg",
       "title": "Guest App Walkthrough Screens",
       "category": "Art"
     },
     {
       "id": 3,
-      "image": "images/works/work-3.svg",
+      "image": "/images/works/work-3.svg",
       "title": "Delivery App Wireframe",
       "category": "Branding"
     },
     {
       "id": 4,
-      "image": "images/works/work-4.svg",
+      "image": "/images/works/work-4.svg",
       "title": "Onboarding Motivation",
       "category": "Design"
     },
     {
       "id": 5,
-      "image": "images/works/work-5.svg",
+      "image": "/images/works/work-5.svg",
       "title": "iMac Mockup Design",
       "category": "Creative"
     },
     {
       "id": 6,
-      "image": "images/works/work-6.svg",
+      "image": "/images/works/work-6.svg",
       "title": "Game Store App Concept",
       "category": "Art"
     }

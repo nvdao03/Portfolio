@@ -1,5 +1,6 @@
 import About from './components/About';
 import Intro from './components/Intro';
+import Service from './components/Service';
 import SideBar from './components/SideBar';
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="main" style={{ height: '10000px' }}>
         <Intro />
         <About />
+        <Service />
       </main>
     </>
   );

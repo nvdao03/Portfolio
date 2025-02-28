@@ -84,7 +84,7 @@ export default function About() {
           <div className="flex gap-x-[15px]">
             <CupIcon />
             <div className="flex flex-col justify-between h-full">
-              <h3 className="text-[18px]">5670</h3>
+              <h3 className="text-[18px]">30 +</h3>
               <span className="text-sm">Cup of coffee</span>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function About() {
           <div className="flex gap-x-[15px]">
             <PeopleIcon />
             <div className="flex flex-col justify-between h-full">
-              <h3 className="text-[18px]">427</h3>
+              <h3 className="text-[18px]">40 +</h3>
               <span className="text-sm">Satisfied clients</span>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function About() {
           <div className="flex gap-x-[15px]">
             <BadgeIcon />
             <div className="flex flex-col justify-between h-full">
-              <h3 className="text-[18px]">35</h3>
+              <h3 className="text-[18px]">60 +</h3>
               <span className="text-sm">Nominees winner</span>
             </div>
           </div>
