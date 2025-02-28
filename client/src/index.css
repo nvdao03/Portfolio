@@ -158,34 +158,48 @@ button {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', serif;
+  color: hsl(244, 16%, 43%);
+  background-color: hsl(258, 60%, 98%);
+}
+
+main {
+  margin-left: 90px;
 }
 
 .custom-container {
   @apply max-w-[1170px] mx-auto px-[30px];
 }
 
-@screen max-xl {
+@media screen and (max-width: 1199.98px) {
   .custom-container {
     @apply max-w-[960px];
   }
 }
 
-@screen max-lg {
+@media screen and (max-width: 991.98px) {
   .custom-container {
     @apply max-w-[720px];
   }
 }
 
-@screen max-md {
+@media screen and (max-width: 767.98px) {
   .custom-container {
     @apply max-w-[540px];
   }
 }
 
-@screen max-sm {
+@media screen and (max-width: 575.98px) {
   .custom-container {
     @apply w-full max-w-full px-[15px];
   }
+}
+
+.custom-btn-primary {
+  @apply px-[30px] py-[8px] rounded-[18px] inline-block bg-frist-color font-bold text-body-color border border-solid border-transparent hover:animate-buttonHover;
 }
