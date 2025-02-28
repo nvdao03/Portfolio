@@ -172,6 +172,13 @@ main {
   margin-left: 90px;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: #353252;
+}
+
 .custom-container {
   @apply max-w-[1170px] mx-auto px-[30px];
 }
@@ -203,3 +210,15 @@ main {
 .custom-btn-primary {
   @apply px-[30px] py-[8px] rounded-[18px] inline-block bg-frist-color font-bold text-body-color border border-solid border-transparent hover:animate-buttonHover;
 }
+
+.custom-section {
+  @apply pt-[70px] pb-[20px] mx-auto;
+}
+
+.custom-section-title {
+  @apply text-[25px] m-[10px] font-bold relative mb-[37px] ml-0 before:h-[23px] before:w-[23px] before:absolute before:-left-[9px] before:-top-[9px];
+}
+
+/* .sectionTitle::before {
+  background: url('./assets/images/dots-bg.svg');
+} */
