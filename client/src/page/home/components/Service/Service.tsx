@@ -1,13 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { getService } from '../../../../apis/service.api';
 import SkeletonService from '../../../../components/Skeleton/SkeletonService';
-
-interface Service {
-  id: number;
-  image: string;
-  title: string;
-  description: string;
-}
+import { ServiceType } from '../../../../types/service.type';
 
 export default function Service() {
   const query = useQuery({
@@ -32,7 +26,7 @@ export default function Service() {
 
         {!isLoading && (
           <>
-            {data?.data.map((service: Service) => {
+            {data?.data.map((service: ServiceType) => {
               return (
                 <div className="custom-service-card" key={service.id}>
                   <img

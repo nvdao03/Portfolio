@@ -247,6 +247,26 @@ h3 {
   }
 }
 
+.custom-card-icon {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 30px;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &::before {
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 3px;
+    top: 0;
+    background-color: hsl(353, 100%, 65%);
+  }
+}
+
 /* .sectionTitle::before {
   background: url('./assets/images/dots-bg.svg');
 } */

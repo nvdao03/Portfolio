@@ -79,48 +79,54 @@
       "title": "Branding"
     }
   ],
-  "exercises": [
+  "experiences": [
     {
       "id": 1,
       "category": "education",
       "year": "2021 - present",
       "title": "Academic Degree",
-      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto.",
+      "icon": "/icons/graducation.svg"
     },
     {
       "id": 2,
       "category": "education",
       "year": "2021 - present",
       "title": "Bachelor's Degree",
-      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto.",
+      "icon": "/icons/graducation.svg"
     },
     {
       "id": 3,
       "category": "education",
       "year": "2021 - present",
       "title": "Honours Degree",
-      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto.",
+      "icon": "/icons/graducation.svg"
     },
     {
       "id": 4,
       "category": "experience",
       "year": "2021 - present",
       "title": "Web Designer",
-      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto.",
+      "icon": "/icons/brieftcase.svg"
     },
     {
       "id": 5,
       "category": "experience",
       "year": "2021 - present",
       "title": "Front-End Developer",
-      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto.",
+      "icon": "/icons/brieftcase.svg"
     },
     {
       "id": 6,
       "category": "experience",
-      "year": "2009 - present",
+      "year": "2021 - present",
       "title": "Back-End Developer",
-      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto."
+      "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto.",
+      "icon": "/icons/brieftcase.svg"
     }
   ]
 }

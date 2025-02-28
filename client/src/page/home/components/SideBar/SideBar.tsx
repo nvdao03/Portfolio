@@ -49,7 +49,7 @@ export default function SideBar() {
 
               <li>
                 <a
-                  href="#resume"
+                  href="#experience"
                   className="block text-title-color py-4 transition duration-300 hover:text-[#ffd15c]"
                 >
                   <GraducationIcon />
