@@ -337,4 +337,8 @@ h3 {
 
 .swiper-pagination-bullet-active {
   background-color: hsl(353, 100%, 65%) !important;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 4px;
+  padding-right: 4px;
 }

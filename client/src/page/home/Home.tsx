@@ -1,6 +1,7 @@
 import About from './components/About';
 import Experience from './components/Experience';
 import Intro from './components/Intro';
+import Posts from './components/Posts';
 import Pricing from './components/Pricing';
 import Review from './components/Review/Review';
 import Service from './components/Service';
@@ -19,6 +20,7 @@ export default function Home() {
         <Works />
         <Pricing />
         <Review />
+        <Posts />
       </main>
     </>
   );
