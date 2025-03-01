@@ -13,11 +13,13 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^4.36.1",
+    "@types/swiper": "^5.4.3",
     "axios": "^1.8.1",
     "client": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sass": "^1.85.1"
+    "sass": "^1.85.1",
+    "swiper": "^11.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

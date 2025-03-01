@@ -335,6 +335,6 @@ h3 {
   border-bottom-right-radius: 0;
 }
 
-/* .sectionTitle::before {
-  background: url('./assets/images/dots-bg.svg');
-} */
+.swiper-pagination-bullet-active {
+  background-color: hsl(353, 100%, 65%) !important;
+}

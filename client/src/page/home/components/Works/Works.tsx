@@ -37,8 +37,6 @@ export default function Works() {
     setCurrentTab(String(event.currentTarget.textContent));
   };
 
-  console.log(currentTab);
-
   return (
     <section className="custom-container custom-section" id="work">
       <h2 className="custom-section-title">Recent Work</h2>

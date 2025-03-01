@@ -106,5 +106,28 @@
       "desc": "Lorem ipsum dolor sit amet quo ei simul congue exerciad nec admodum perfecto.",
       "icon": "/icons/brieftcase.svg"
     }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "image": "/images/reviews/avatar-1.svg",
+      "title": "John Doe",
+      "subtitle": "Product designer at Dribble",
+      "comment": "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍"
+    },
+    {
+      "id": 2,
+      "image": "/images/reviews/avatar-2.svg",
+      "title": "David",
+      "subtitle": "Web products",
+      "comment": "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍"
+    },
+    {
+      "id": 3,
+      "image": "/images/reviews/avatar-3.svg",
+      "title": "Alice",
+      "subtitle": "Designer at Dribble",
+      "comment": "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍"
+    }
   ]
 }
