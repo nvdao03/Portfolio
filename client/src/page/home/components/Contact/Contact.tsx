@@ -6,14 +6,16 @@ export default function Contact() {
     >
       <h2 className="custom-section-title">Get In Touch</h2>
 
-      <div className="grid grid-cols-[4fr,8fr] gap-x-[20px]">
+      <div className="grid grid-cols-[4fr,8fr] gap-x-[20px] max-md:grid-cols-1 max-md:gap-y-[20px]">
         <div>
-          <h3 className="text-[20px] mb-[20px]">Lets talk about everything!</h3>
-          <p>Dont like forms? Send me an email. 👋</p>
+          <h3 className="text-[20px] mb-[20px] leading-[1.5]">
+            Lets talk about everything!
+          </h3>
+          <p className="leading-[1.5]">Dont like forms? Send me an email 👋</p>
         </div>
 
         <form>
-          <div className="grid grid-cols-2 gap-x-[20px]">
+          <div className="grid grid-cols-2 gap-x-[20px] max-md:grid-cols-1">
             <div className="relative mb-[30px] h-[38px]">
               <input
                 type="text"

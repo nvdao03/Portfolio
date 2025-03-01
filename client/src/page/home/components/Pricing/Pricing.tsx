@@ -7,7 +7,7 @@ export default function Pricing() {
     <div className="custom-container custom-section">
       <h2 className="custom-section-title">Pricing Plans</h2>
 
-      <div className="grid-cols-3 items-center grid">
+      <div className="grid-cols-3 items-center grid max-md:grid-cols-1 max-md:gap-y-[20px]">
         <div className="text-center py-[20px] px-[30px] bg-white rounded-[20px] shadow-sm">
           <img src={Image1} alt="Basic" className="mx-auto" />
           <h3 className="my-[20px] mx-0 text-[20px]">Basic</h3>

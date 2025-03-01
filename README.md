@@ -13,6 +13,8 @@ $ git clone https://github.com/nvdao03/Portfolio.git
 $ cd Portfolio
 $ npm install
 $ npm run dev
+$ cd server 
+$ npm run
 ```
 
 ## Guide for this repository is here:

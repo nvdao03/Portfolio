@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <SideBar />
-      <main className="main">
+      <main className="main max-xl:!ml-0">
         <Intro />
         <About />
         <Service />

@@ -144,7 +144,7 @@ export default function Intro() {
           <svg
             width="49"
             height="17"
-            className="absolute left-[36%] bottom-[10%]"
+            className="absolute left-[36%] bottom-[10%] max-sm:bottom-[15%]"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g fill="#FF4C60" fillRule="evenodd">

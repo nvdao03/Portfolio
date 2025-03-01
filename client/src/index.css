@@ -205,6 +205,10 @@ h3 {
   .custom-container {
     @apply w-full max-w-full px-[15px];
   }
+
+  .custom-section {
+    @apply pt-[60px];
+  }
 }
 
 .custom-btn-primary {

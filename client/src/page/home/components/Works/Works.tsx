@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { getWorks } from '../../../../apis/works.api';
 import { WorkType } from '../../../../types/works.type';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import SkeletonService from '../../../../components/Skeleton/SkeletonService';
 
 export default function Works() {
@@ -41,7 +41,7 @@ export default function Works() {
     <section className="custom-container custom-section" id="work">
       <h2 className="custom-section-title">Recent Work</h2>
 
-      <div className="flex items-center gap-x-[20px] mb-[25px]">
+      <div className="flex items-center gap-x-[20px] mb-[25px] max-md:flex-wrap max-md:gap-y-[20px]">
         <button
           onClick={handleFilterWork}
           className={
@@ -94,7 +94,7 @@ export default function Works() {
         </button>
       </div>
 
-      <div className="grid-cols-3 gap-[20px] grid">
+      <div className="grid-cols-3 gap-[20px] grid max-md:grid-cols-2 max-sm:grid-cols-1">
         {isLoading && (
           <>
             <SkeletonService />

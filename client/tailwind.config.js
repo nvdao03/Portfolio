@@ -38,11 +38,21 @@ export default {
           '15%': { top: '50%' },
           '50%': { top: '50%' },
           '100%': { top: '29%' }
+        },
+        sideBarOutSide: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' }
+        },
+        sideBarInSide: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100)' }
         }
       },
       animation: {
         buttonHover: 'buttonHover 0.2s ease-in-out',
-        aniMouse: 'aniMouse 2s linear infinite'
+        aniMouse: 'aniMouse 2s linear infinite',
+        sideBarOutSide: 'sideBarOutSide 0.5s ease-in-out',
+        sideBarInSide: 'sideBarInSide 0.5s ease-in-out'
       }
     }
   },

@@ -15,7 +15,7 @@ export default function Service() {
     <section className="custom-container custom-section" id="services">
       <h2 className="custom-section-title">Services</h2>
 
-      <div className="grid grid-cols-3 gap-x-5">
+      <div className="grid grid-cols-3 gap-x-5 max-md:grid-cols-2 max-md:gap-[20px] max-sm:grid-cols-1">
         {isLoading && (
           <>
             <SkeletonService />

@@ -16,7 +16,7 @@ export default function Experience() {
     <section className="custom-container custom-section" id="experience">
       <h2 className="custom-section-title">Experience</h2>
 
-      <div className="grid-cols-2 gap-x-[30px] grid">
+      <div className="grid-cols-2 gap-x-[30px] grid max-sm:grid-cols-1 gap-y-[20px]">
         {isLoading && (
           <>
             <SkeletonExperience />
