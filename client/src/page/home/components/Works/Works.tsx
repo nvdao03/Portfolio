@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { getWorks } from '../../../../apis/works.api';
 import { WorkType } from '../../../../types/works.type';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import SkeletonService from '../../../../components/Skeleton/SkeletonService';
 
 export default function Works() {
@@ -12,6 +12,7 @@ export default function Works() {
 
   const { data: dataWorks, isLoading, isSuccess } = queryWorks;
   const [filterWork, setFilterWork] = useState<WorkType[]>([]);
+  const [currentTab, setCurrentTab] = useState<String>('Everything');
 
   useEffect(() => {
     if (isSuccess) {
@@ -26,12 +27,17 @@ export default function Works() {
     const filterCategory = newData.filter(
       (work: WorkType) => work.category === event.currentTarget.textContent
     );
+
     if (event.currentTarget.textContent === 'Everything') {
       setFilterWork(newData);
     } else {
       setFilterWork(filterCategory);
     }
+
+    setCurrentTab(String(event.currentTarget.textContent));
   };
+
+  console.log(currentTab);
 
   return (
     <section className="custom-container custom-section" id="work">
@@ -40,31 +46,51 @@ export default function Works() {
       <div className="flex items-center gap-x-[20px] mb-[25px]">
         <button
           onClick={handleFilterWork}
-          className="cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#5e5c7f] hover:text-[#FF4C61]"
+          className={
+            currentTab === 'Everything'
+              ? `cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#FF4C61]`
+              : `cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#5e5c7f] hover:text-[#FF4C61]`
+          }
         >
           Everything
         </button>
         <button
           onClick={handleFilterWork}
-          className="cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#5e5c7f] hover:text-[#FF4C61]"
+          className={
+            currentTab === 'Creative'
+              ? `cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#FF4C61]`
+              : `cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#5e5c7f] hover:text-[#FF4C61]`
+          }
         >
           Creative
         </button>
         <button
           onClick={handleFilterWork}
-          className="cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#5e5c7f] hover:text-[#FF4C61]"
+          className={
+            currentTab === 'Art'
+              ? `cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#FF4C61]`
+              : `cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#5e5c7f] hover:text-[#FF4C61]`
+          }
         >
           Art
         </button>
         <button
           onClick={handleFilterWork}
-          className="cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#5e5c7f] hover:text-[#FF4C61]"
+          className={
+            currentTab === 'Design'
+              ? `cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#FF4C61]`
+              : `cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#5e5c7f] hover:text-[#FF4C61]`
+          }
         >
           Design
         </button>
         <button
           onClick={handleFilterWork}
-          className="cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#5e5c7f] hover:text-[#FF4C61]"
+          className={
+            currentTab === 'Branding'
+              ? `cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#FF4C61]`
+              : `cursor-pointer font-semibold transition-all duration-[0.3s] bg-transparent text-[#5e5c7f] hover:text-[#FF4C61]`
+          }
         >
           Branding
         </button>

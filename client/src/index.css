@@ -320,6 +320,21 @@ h3 {
   visibility: visible;
 }
 
+.custom-pricing-badge {
+  position: absolute;
+  left: 0;
+  top: 39px;
+  color: #fff;
+  background-color: #6c6ce5;
+  transform: rotate(-90deg);
+  padding: 8px;
+  font-size: 13px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 /* .sectionTitle::before {
   background: url('./assets/images/dots-bg.svg');
 } */
