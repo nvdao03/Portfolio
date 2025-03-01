@@ -1,4 +1,5 @@
 import About from './components/About';
+import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Intro from './components/Intro';
 import Posts from './components/Posts';
@@ -12,7 +13,7 @@ export default function Home() {
   return (
     <>
       <SideBar />
-      <main className="main" style={{ height: '10000px' }}>
+      <main className="main">
         <Intro />
         <About />
         <Service />
@@ -21,6 +22,7 @@ export default function Home() {
         <Pricing />
         <Review />
         <Posts />
+        <Contact />
       </main>
     </>
   );
